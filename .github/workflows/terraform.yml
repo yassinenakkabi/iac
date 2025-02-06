@@ -53,3 +53,9 @@ jobs:
           id: apply
           if: github.ref == 'refs/heads/master' && github.event_name == 'push' && steps.plan.outcome == 'success'
           run: terraform apply -auto-approve -input=false -parallelism=1 planfile
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> fa4297678d3bc27caefd8dc5044d4a5d31edffdc
